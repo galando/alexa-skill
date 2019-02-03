@@ -1,10 +1,12 @@
 # gradle #
 gradlew
-gradle.bat
+gradlew.bat
 .gradle/
 gradle/
+build/
 
 # IDE #
+.DS_Store
 *.iml
 .idea/
 *.swp

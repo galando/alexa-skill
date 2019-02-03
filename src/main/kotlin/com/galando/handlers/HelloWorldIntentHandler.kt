@@ -13,7 +13,7 @@ class HelloWorldIntentHandler : RequestHandler {
     }
 
     override fun handle(input: HandlerInput?): Optional<Response> {
-        val speechText = "Hello world"
+        val speechText = "BlaBla"
         return input!!.responseBuilder
                 .withSpeech(speechText)
                 .withSimpleCard("HelloWorld", speechText)
